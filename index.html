@@ -14,24 +14,51 @@
 </head>
 
 <body>
-<header class="container-fluid">
+<header class="container-fluid text-light bg-dark">
   <div class="row">
     <div class="col">
-
+      <img src="img_primogem.png" alt="" class="icon-img" onclick="collectDps()">
+      <span id= "displayTotal"></span>
     </div>
   </div>
 </header>
 <main class="container-fluid">
-  <div class="row">
+  <div class="row text-center">
     <div class="col">
-
+      <img src="img_primogem.png" alt="" class="primo" onclick="collectDps()">
     </div>
   </div>
 </main>
-<footer class="container-fluid">
-  <div class="row">
-    <div class="col">
-      
+
+<footer class="container-fluid text-light bg-dark">
+  <div class="row py-1 text-center justify-content-around">
+    <div class="col-3">
+      <img src="img_razor.jpg" alt="" class="icon-img cursor-purchase" onclick="buyRazor()">
+      <span id="ownedRazor"></span> <br />
+      <img src="img_primogem.png" alt="" class="icon-img-sm">
+      <span id="priceRazor"></span> <br />
+      <span id="multiplierRazor" ></span>
+    </div>
+    <div class="col-3">
+      <img src="img_barbara.jpg" alt="" class="icon-img cursor-purchase" onclick="buyBarbara()">
+      <span id="ownedBarbara"></span> <br />
+      <img src="img_primogem.png" alt="" class="icon-img-sm">
+      <span id="priceBarbara"></span> <br />
+      <span id="multiplierBarbara" ></span>
+    </div>
+    <div class="col-3">
+      <img src="img_diluc.jpg" alt="" class="icon-img cursor-purchase" onclick="buyDiluc()">
+      <span id="ownedDiluc"></span> <br />
+      <img src="img_primogem.png" alt="" class="icon-img-sm">
+      <span id="priceDiluc"></span> <br />
+      <span id="multiplierDiluc" ></span>
+    </div>
+    <div class="col-3">
+      <img src="img_jean.jpg" alt="" class="icon-img cursor-purchase" onclick="buyJean()">
+      <span id="ownedJean"></span> <br />
+      <img src="img_primogem.png" alt="" class="icon-img-sm">
+      <span id="priceJean"></span> <br />
+      <span id="multiplierJean" ></span>
     </div>
   </div>
 </footer>
