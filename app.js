@@ -67,7 +67,7 @@ function buyRazor(){
     primos -= dpsHelpers.Razor.price
     dpsHelpers.Razor.owned ++
     dpsMultiplier += dpsHelpers.Razor.multiplier
-    dpsHelpers.Razor.price *= 1.5
+    dpsHelpers.Razor.price *= 2
     update()
   }
 }
@@ -76,7 +76,7 @@ function buyBarbara(){
     primos -= supportHelpers.Barbara.price
     supportHelpers.Barbara.owned ++
     supportMultiplier += supportHelpers.Barbara.multiplier
-    supportHelpers.Barbara.price *= 1.5
+    supportHelpers.Barbara.price *= 2
     update()
   }
 }
@@ -85,7 +85,7 @@ function buyDiluc(){
     primos -= dpsHelpers.Diluc.price
     dpsHelpers.Diluc.owned ++
     dpsMultiplier += dpsHelpers.Diluc.multiplier
-    dpsHelpers.Diluc.price *= 1.5
+    dpsHelpers.Diluc.price *= 2
     update()
   }
 }
@@ -94,7 +94,7 @@ function buyJean(){
     primos -= supportHelpers["Jean"].price
     supportHelpers["Jean"].owned ++
     supportMultiplier += supportHelpers["Jean"].multiplier
-    supportHelpers["Jean"].price *= 1.5
+    supportHelpers["Jean"].price *= 2
     update()
   }
 }
