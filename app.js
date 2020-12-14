@@ -90,11 +90,11 @@ function buyDiluc(){
   }
 }
 function buyJean(){
-  if (primos >= supportHelpers.Jean.price){
-    primos -= supportHelpers.Jean.price
-    supportHelpers.Jean.owned ++
-    supportMultiplier += supportHelpers.Jean.multiplier
-    supportHelpers.Jean.price *= 1.5
+  if (primos >= supportHelpers["Jean"].price){
+    primos -= supportHelpers["Jean"].price
+    supportHelpers["Jean"].owned ++
+    supportMultiplier += supportHelpers["Jean"].multiplier
+    supportHelpers["Jean"].price *= 1.5
     update()
   }
 }
